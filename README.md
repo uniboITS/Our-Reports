@@ -133,8 +133,8 @@ body {
 
 <div class="topnav">
   <a href="https://uniboITS.github.io/Progetto-ITS/">Home</a>
-  <a href="https://uniboITS.github.io/First-story/">FIRST STORY</a>
-  <a href="https://uniboITS.github.io/Second-story/">SECOND STORY</a>
+  <a href="https://uniboITS.github.io/First-story/">Musical artists</a>
+  <a href="https://uniboITS.github.io/Second-story/">Rock Music</a>
   <a class="active" href="https://uniboITS.github.io/Our-Reports/">Our Reports</a>
 </div>
 
@@ -201,7 +201,7 @@ footer {
 
       <div class="article">
     <div class="article-text">
-  <h1><span style="font-family:Georgia,serif; color:black">Rock Music in Emilia-Romagna</span></h1>
+  <h1><span style="font-family:Georgia,serif; color:black">Rock Music artists from Emilia-Romagna</span></h1>
 <h4>Methodology and data sources</h4>
     <p> EXPLAIN ALL YOUR RESEARCHES
       </p>
