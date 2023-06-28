@@ -190,7 +190,7 @@ footer {
       <h4>Methodology and data sources</h4>
     <p>The <b>DBpedia</b> corpus was a crucial TEXT TEXT TEXT.</p> 
             <h4>The challenges</h4>
-<p>WHY DBPEDIA WAS SO DIFFICULT, AND HOW I CHOSE THE QUERIES
+<p>WHY DBPEDIA WAS SO DIFFICULT, AND HOW I CHOSE THE QUERIES [Questo è un testo di prova]
 </p>
     </div> 
       
