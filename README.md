@@ -215,8 +215,6 @@ footer {
       <img src="vertical-rock.jpg" alt="Article Image" width="500" height="800">    </div>  
   </div>
   
-  </div>
-  
 <br>
   
 <footer>
