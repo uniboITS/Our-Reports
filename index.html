@@ -6,12 +6,22 @@
 <style>
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+  background-color: #eed9bd;
+  padding: 0;
+  font-size: 18px;
+}
+
+.title-box {
+      background-color: #712f26;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
 }
 
 .topnav {
   overflow: hidden;
-
+  background-color: #712f26;
 }
 
 .topnav a {
@@ -21,112 +31,122 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc; /* Added border style */
+  border-radius: 5px; /* Added border radius */
+  transition: background-color 0.3s ease; /* Add transition effect */
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #f6dc9d;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #990a00;
+  background-color: #712f26;
+  color: white;
+}
+
+h1 {
+      color: #eed9bd;
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin: 0;
+    }
+    
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 90px;
+  left: 110px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #712f26;
+  padding: 10px;
+  text-align: left;
   color: white;
 }
 </style>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+   h2 {
+    color: #712f26;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 200px;
+    font-style: Arial;
+  }
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #;
-      color: #333;
-      margin: 0;
-      padding: 20px;
-    }
+  .article {
+    display: flex;
+    align-items: center;
+    border: 3px solid #DDD;
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    margin-left: 300px;
+    margin-right: 200px;
+  }
 
-    .title-box {
-      background-color: #FF80AB;
-      padding: 10px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
+  .article-text {
+    flex: 1;
+    font-family:  Arial, serif;
+    font-size: 24px;
+  }
 
-    h1 {
-      color: #FFF;
-      font-family: 'Playfair Display', serif;
-      font-size: 36px;
-      margin: 0;
-    }
+  .article-image {
+    flex: 1;
+    margin-left: 20px;
+  }
 
-    h2 {
-      color: #000000;
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-      margin-top: 10px;
-      font-style: italic;
-    }
-
-    .article {
-      display: flex;
-      align-items: center;
-      border: 1px solid #DDD;
-      padding: 20px;
-      margin-bottom: 20px;
-      background-color: #FFF;
-    }
-
-    .article-text {
-      flex: 1;
-     
-    }
-
-    .article-image {
-      flex: 1;
-      margin-left: 40px;
-      margin-right: 0px;
-    }
-    
- .image-article {
-      flex: 1;
-      margin-left: 0px;
-      margin-right: 40px;
-
-    }
     .section {
-      margin-top: 0px;
+      margin-top: 40px;
+      margin-left: 330px;
+      margin-right: 200px;
     }
 
     .section-image {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
-      border: 1px solid #8BC34A;
-      padding: 10px;
-      background-color: #E0EDE5;
+      margin-left: 330px;
+      margin-right: 200px;
+      margin-top: 22px;
+      border: 3px solid #DDD;
+      padding: 8px;
+      background-color:#fff;
     }
 
     .section-image img {
       flex: 1;
-      margin-right: 10px;
+      margin-left: 330px;
+      margin-right: 200px;
     }
 
     .small-italic {
       font-style: italic;
-      font-size: 14px;
+      font-size: 20px;
+      margin-left: 300px;
+      margin-right: 200px;
       font-family: 'Times New Roman', serif;
     }
 
-    .white-box {
-      background-color: #FFF;
-      border: 1px solid #DDD;
-      padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-
-
-  </style>
-
+</style>
 
 </head>
 
@@ -196,25 +216,7 @@ footer {
       
   </div>
 
-<br><br>
-
-
-      <div class="article">
-    <div class="article-text">
-  <h1><span style="font-family:Georgia,serif; color:black">Rock Music artists from Emilia-Romagna</span></h1>
-<h4>Methodology and data sources</h4>
-    <p> EXPLAIN ALL YOUR RESEARCHES
-      </p>
-
-      <h4>The challenges</h4>
-<p>WHY WIKIDATA WAS DIFFICULT
-      </p>
-    </div> 
-    <div class="article-image">
-      <img src="vertical-1-rock.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
-      <img src="vertical-rock.jpg" alt="Article Image" width="500" height="800">    </div>  
-  </div>
-  
+<br>
 <br>
   
 <footer>
